@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/Logo classique fond foncé.png">
+    <title>DREAM-GYM</title>
+</head>
+<body>
+    <div class="banniere">
+        <div id="vide"></div>
+            <header>
+                <img src="images/Logo transparent.png" alt="logo" width="100px">
+                <nav>
+                    <ul>
+                        <li><a href="#">Accueil</a></li>
+                        <li><a href="#">Concept</a></li>
+                        <li><a href="#">Clubs</a></li>
+                        <li><a href="#">Coachs</a></li>
+                        <li><a href="#">Giga+</a></li>
+                    </ul>
+                </nav>
+                <div class="logo">
+                    <a href="#"><img src="images/Search.png" alt="loupe"></a>
+                    <a href="#"><img src="images/Notifications.png" alt="cloche"></a>
+                    <a href="#"><img src="images/Composant.png" alt="profil"></a>
+                </div>
+            </header>
+            <main>
+                <span>
+                    <h1>Découvrez notre univers
+                        <br>
+                        DREAM-<strong>GYM</strong>
+                    </h1>
+                </span>
+            </main>
+        </div>
+        <div class="banniere_2">
+            <span>
+                <h1>Trouve ta salle de sport près de chez toi</h1>
+            </span>
+            <form action="traitement.php" action="post">
+                <input type="search" name="search" id="site-search" placeholder="Nom,Ville,Adresse...">
+                <input class="button" type="submit" value="OK">
+            </form>
+        </div>
+        <div class="sign_in">
+            <div class="sign_in_text">
+                <h1>Inscris toi !</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut ero labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco poriti laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in uienply voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat norin proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="sign_in_card">
+                <div class="card_content">
+                    <form action="form.php" method="post">
+                        <fieldset class="card_content_fieldset">
+                            <legend class="first-legend">Inscription</legend>
+                            <fieldset class="first-fieldset">
+                                <legend>Sexe</legend>
+                                <div class="champs-sexe">
+                                    <label for="sex_male"> Homme
+                                        <input type="radio" name="user_sex" id="sex_male">
+                                    </label>
+                                </div>
+                                <div class="champs-sexe">
+                                    <label for="sex_female"> Femme
+                                        <input type="radio" name="user_sex" id="sex_female">
+                                    </label>
+                                </div>
+                                <div class="champs-sexe">
+                                    <label for="sex_other"> Autre
+                                        <input type="radio" name="user_sex" id="sex_other">
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Nom</legend>
+                                <label>
+                                    <input class="champs" type="text" name="user_name" placeholder="Votre nom">
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Prénom</legend>
+                                <label>
+                                    <input class="champs" type="text" name="user_firstname" placeholder="Votre prénom">
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Date de naissance</legend>
+                                <label>
+                                    <input class="champs" type="date" name="user_birthday">
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Numéro de téléphone</legend>
+                                <label>
+                                    <input class="champs" type="tel" name="user_phone" placeholder="06 12 34 56 78">
+                                </label>
+                            </fieldset>
+                            <fieldset>
+                                <legend>E-mail</legend>
+                                <label>
+                                    <input class="champs" type="email" name="user_mail" placeholder="E-mail@email.com">
+                                </label>
+                            </fieldset>
+                            <br>
+                            <input class="btn_sign_in" type="submit" value="Je m'inscris">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <nav class="footer-1">
+            <ul>
+                <li><a href="#">A propos</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><img src="./images/Facebook.png" alt="Facebook"><a href="#">Facebook</a></li>
+                <li><a href="#"><img src="./images/Twitter.png" alt="Twitter"><a href="#">Twitter</a></li>
+                <li><a href="#"><img src="./images/Insta.png" alt="Insta"><a href="#">Instagram</a></li>
+            </ul>
+            <ul>
+                <li><label for="emailinput">Newsletter</label></li>
+                <li>
+                    <input type="email" name="email" id="emailinput" placeholder="Adresse e-mail">
+                </li>
+                <li><input class="button" type="submit" value="S'inscrire"></li>
+            </ul>
+        </nav>
+        <nav class="footer-2">
+            <ul>
+                <li>9 rue Marc Seguin</li>
+                <li>+33 7 12 34 56 78</li>
+                <li>DREAM-GYM@mail.com</li>
+            </ul>
+        </nav>
+    </footer>
+    </div>
+</body>
+</html>

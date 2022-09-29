@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Stencil";
+    src: url(../Font/Stencil/Stencil.ttf);
+    font-family: "CooperHewitt";
+    src: url(../Font/cooper-hewitt/CooperHewitt-Medium.otf);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "CooperHewitt";
+}
+
+strong {
+    color: #87ff65;
+}
+
+h1 {
+    margin-top: 0;
+    font-family: "Stencil";
+}
+
+li img {
+    margin-right: 10px;
+    padding-top: 10px;
+}
+
+/* ------------------------- Début de la div banniere ------------------------- */
+
+.banniere {
+    background: no-repeat 100% 30% / cover url("../images/img-accueil.jpg");
+    height: 100vh;
+}
+
+#vide {
+    height: 35px;
+}
+/* ------------------------- Début du header ------------------------- */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #35393C;
+    color: #87ff65;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 2px;
+    box-shadow: black 0 5px 7px;
+}
+
+nav {
+    width: 401px;
+}
+
+.logo{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #87ff65;
+}
+
+a:hover, a img:hover {
+    opacity: 0.5;
+}
+
+/* ------------------------- Fin du header ------------------------- */
+
+/* ------------------------- Début du main ------------------------- */
+
+main {
+    display: flex;
+    justify-content: end;
+}
+
+main span {
+    margin-top: 50px;
+    margin-right: 257px;
+    color: white;
+}
+
+/* ------------------------- Fin du main ------------------------- */
+
+/* ------------------------- Début de la div banniere ------------------------- */
+
+.banniere_2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #c0cac0;
+    height: 140px;
+}
+
+.banniere_2 span h1 {
+    font-size: 30px;
+    color: #35393C;
+    text-shadow: #386641 0 5px 5px;
+}
+
+.banniere_2 input {
+    height: 50px;
+    width: 210px;
+    background-color: #35393C;
+    color: #87ff65;
+    border-radius: 4px;
+    border-color: #9aa49a;
+    box-shadow: black 0 5px 7px;
+}
+
+.banniere_2 .button {
+    height: 50px;
+    width: 60px;
+    background-color: #9aa49a;
+    color: #87ff65;
+    border-radius: 4px;
+    border: none;
+    box-shadow: black 0 5px 7px;
+}
+
+.banniere_2 .button:hover {
+    cursor: pointer;
+}
+
+/* ------------------------- Fin de la div banniere ------------------------- */
+
+/* ------------------------- Début de la div sign-in ------------------------- */
+
+.sign_in {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    background-color: #9aa49a;
+    flex-flow: wrap row;
+}
+
+.sign_in_text {
+    width: 600px;
+}
+
+.sign_in_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 589px;
+}
+
+.card_content_fieldset {
+    background-color: #35393C;
+    border-radius: 4px;
+    border: none;
+    box-shadow: black 0 5px 7px;
+    padding: 50px 25px;
+}
+
+.card_content_fieldset .btn_sign_in {
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: #c0cac0;
+    border-radius: 4px;
+    border-color: #35393C;
+    color: #35393C;
+}
+
+.card_content_fieldset .btn_sign_in:hover {
+    cursor: pointer;
+    box-shadow: black 0 5px 5px;
+}
+
+.first-legend {
+    border: 1px solid #35393C;
+    border-radius: 3px;
+    background-color: #9aa49a;
+    color: #35393C;
+    font-weight: 700;
+    text-align: center;
+    box-shadow: black 0 5px 5px;
+}
+
+legend {
+    color: #87ff65;
+}
+
+.first-fieldset {
+    display: flex;
+}
+
+.champs-sexe {
+    text-align: center;
+    height: 20px;
+    width: 85px;
+    margin-right: 10px;
+    background-color: #35393C;
+    color: #87ff65;
+    border-radius: 4px;
+    border-color: #9aa49a;
+}
+
+.champs {
+    height: 30px;
+    width: 360px;
+    background-color: #35393C;
+    color: #87ff65;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #9aa49a;
+    margin-bottom: 5px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: #35393C;
+    color: #87ff65;
+}
+
+footer ul {
+    margin-bottom: 0;
+}
+
+.footer-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: calc(100% - 507px);
+}
+
+.footer-1 .button {
+    height: 20px;
+    width: 70px;
+    font-weight: 700;
+    background-color: #9aa49a;
+    color: #35393C;
+    border-radius: 4px;
+    border: none;
+    box-shadow: black 0 5px 5px;
+}
+
+.footer-1 .button:hover {
+    cursor: pointer;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    width: 507px;
+}
+
+.footer-1 li {
+    padding-bottom: 10px;
+}
+
+#emailinput {
+    height: 25px;
+    border-width: 0px 0px 1px 0px;
+    width: 150px;
+    background-color: #35393C;
+    color: #87ff65;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #9aa49a;
+}
